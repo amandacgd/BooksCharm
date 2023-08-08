@@ -1,0 +1,78 @@
+:root{
+    --fonte-principal: "Poppins";
+
+    
+}
+body {
+    background-color: #EBECEE;
+}
+header {
+    background-color: #EBECEE;
+    width: 100%;
+    height: 10px;
+}
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #44266B;
+    text-align: center;
+    -webkit-text-fill-color:#FFFFFF ;
+    font-family: var(--fonte-principal)
+}
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+h2 {
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: -100px;
+    font-family: var(--fonte-principal);
+}
+    
+.image-container {
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 5px solid #44266B;
+    width: 99%;
+    
+  }
+  .image-container img {
+    max-width: 30%;
+    margin: 10px;
+    border: 3px solid #000;
+  }
+  .image-container p {
+    width: 30%;
+    margin: 0px;
+    
+  }
+  a {
+    color: #000; 
+    text-decoration: none; 
+  }
+  
+  a:visited {
+    color: #b89ec2; 
+  }
+
+.livros {
+    margin-top: 200px;
+    font-family: var(--fonte-principal);
+
+}
+.links {
+    font-family: var(--fonte-principal);
+
+}
+.titulos {
+    font-size: large;
+    font-weight: 1000;
+}
+.legenda{
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}

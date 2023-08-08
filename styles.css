@@ -1,0 +1,46 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco:#EBECEE;
+    --lilas:#cfb0db;
+    --roxo:#44266B;
+    --fonte-principal: "Poppins";
+    
+
+}
+
+body{
+background-color:var(--cor-de-fundo);
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 400;
+}
+h3{
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background-color: var(--roxo);
+    color: #cfb0db;
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+h1{ 
+    font-weight: 550;
+    font-size: xx-large;
+    text-decoration: underline;
+    color:#cfb0db;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}

@@ -1,0 +1,37 @@
+:root{
+    --fonte-principal: "Poppins";
+}
+
+body {
+    font-family: var(--fonte-principal)
+   
+}
+header {
+    background-color: #44266B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+main {
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 20px;
+        }
+label{
+    display:block;
+    font-weight: 300;
+
+}
+.search-box {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #44266B;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #f9f9f9;
+    outline: none;
+}
+h2{
+    color: #b89ec2;
+}
